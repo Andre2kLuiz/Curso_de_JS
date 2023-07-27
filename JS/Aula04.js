@@ -15,7 +15,7 @@ produtos.push(`Açucar`)
 códigos.push(40, 50, 60, 70)
 meses.push(`Mai`, `Jun`, `Ago`, `07`)
 
-//REMOVER  do final pop = esturar
+//REMOVER  do final pop = estourar
 produtos.pop()
 códigos.pop()
 meses.pop()
