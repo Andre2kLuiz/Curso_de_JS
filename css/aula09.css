@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Audiowide', sans-serif;
+}
+
+body {
+    width: 98vw;
+    height: 98vh;
+    background: #ccc;
+}
+
+main {
+    min-width: 960px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1, section, article {
+    margin-bottom: 1rem;
+}
+
+#botoes {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+/* botoes */
+
+button {
+    border: 2px solid, #ccc;
+    margin-left: 10px;
+    
+}
+
+/* botao light*/
+
+#btlight {
+    background: #ededed;
+    color: #121212;
+}
+
+/* bootao dark */
+
+#btdark {
+    background: #263238;
+    color: #fff;
+}
+
+/* articles com a class box */
+.box {
+    padding: 0.625rem;
+    border-radius: 8px;
+}
+
+/* Estilos para serem usados via JS */
+.light {
+    background: #fff;
+    color: #191919;
+}
+
+.dark {
+    background: #222;
+    color: #fff;
+}
+
+.azul {
+    background: #1a237e;
+    color: #fff;
+}
+
+.escura {
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.625rem;
+}
+.amarelo {
+    background: #ffc107;
+    color: #fff;
+}
