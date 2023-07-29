@@ -36,14 +36,14 @@ btnlight.addEventListener('click', modoLight)
 
 function modoDark() {
     //event.preventDefault();
-    console.log('modo dark')
+    window.alert('modo dark')
     tela.classList.add("dark");
     tela.classList.remove("light")
 }
 
 function modoLight() {
     //event.preventDefault();
-    console.log('modo light')
+    window.alert('modo light')
     tela.classList.add("light");
     tela.classList.remove("dark")
 }
