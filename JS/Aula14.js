@@ -3,7 +3,7 @@
 
 /* SELECIONE TODOS OS ELEMENTOS QUE
 DESEJA MANIPULAR */
-let formulario = document.querySelector('form')
+let formulario = document.querySelector('#form')
 
 let cxNome   = document.querySelector('#nome')
 let cxIdade  = document.querySelector('#idade')
@@ -24,7 +24,7 @@ MAS, ANTES DETERMINE UM EVENTO COMO REFERENCIA PARA PEGAR OS DADOS */
 /* Adicionei escutador para o btnEnviar */
 // Uma funcao anonima para pegar os valores
 // calcular o imc
-btnEnviar.addEventListener('click', function (e) {
+btnEnviar.addEventListener('click', function(e) {
     // pegar os values de cada input
     let nome   = cxNome.value
     let idade  = cxIdade.value
